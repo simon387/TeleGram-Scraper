@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/.image/20191203_205322.jpg" width="470" height="150">
+  <img src="https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/.image/20191203_205322.jpg" width="470" height="150" alt="">
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen"></p>
+<p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen" alt=""></p>
 <p align="center">
   <a href="https://github.com/th3unkn0n">
-    <img src="https://img.shields.io/github/followers/th3unkn0n?label=Follow&style=social">
+    <img src="https://img.shields.io/github/followers/th3unkn0n?label=Follow&style=social" alt="">
   </a>
   <a href="https://github.com/th3unkn0n/TeleGram-Group-Scraper">
-    <img src="https://img.shields.io/github/stars/th3unkn0n/TeleGram-Group-Scraper?style=social">
+    <img src="https://img.shields.io/github/stars/th3unkn0n/TeleGram-Group-Scraper?style=social" alt="">
   </a>
 </p>
 <p align="center">
@@ -20,6 +20,7 @@
 ---
 
 ## • API Setup
+
 * Go to http://my.telegram.org  and log in.
 * Click on API development tools and fill the required fields.
 * put app name you want & select other in platform Example :
@@ -33,20 +34,20 @@
 
 `$ cd TeleGram-Scraper`
 
-* Install requierments
+* Install requirements
 
 `$ python3 setup.py -i`
 
-* setup configration file ( apiID, apiHASH )
+* setup configuration file ( apiID, apiHASH )
 
 `$ python3 setup.py -c`
 
-* To Genrate User Data
+* To Generate User Data
 
 `$ python3 scraper.py`
 
 * ( members.csv is default if you changed name use it )
-* Send Bulk sms To Collected Data 
+* Send Bulk sms To Collected Data
 
 `$ python3 smsbot.py members.csv`
 
