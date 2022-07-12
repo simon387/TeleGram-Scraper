@@ -1,2 +1,4 @@
 .idea
 config.data
+*.session
+*.session-journal
